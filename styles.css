@@ -1,0 +1,60 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo azul y rojo que cubre toda la pantalla */
+body {
+    background: linear-gradient(to bottom, #003366, #CC0000); /* Azul a rojo */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Estilo del contenedor */
+.container {
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Logo en la página */
+.logo {
+    max-width: 460px; /* Asegura que el logo no se exceda de 460px */
+    width: 100%; /* Hace que el logo ocupe el ancho disponible sin exceder el max-width */
+    height: auto; /* Mantiene la relación de aspecto original */
+    margin: 0 auto 20px; /* Centra la imagen y deja espacio debajo */
+    display: block; /* Asegura que la imagen sea un bloque */
+}
+
+/* Estilo de los botones */
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.button {
+    background-color: #0077FF; /* Azul para los botones */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005BB5; /* Azul más oscuro al pasar el mouse */
+}
